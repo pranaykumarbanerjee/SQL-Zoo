@@ -1,0 +1,8 @@
+1) SELECT Population FROM World
+    WHERE Name = 'Germany';
+
+2) SELECT name, population FROM World
+   WHERE Name IN ( 'SWEDEN', 'NORWAY', 'DENMARK');
+
+3) SELECT name, area FROM world
+    WHERE area BETWEEN 200000 AND 250000; 
